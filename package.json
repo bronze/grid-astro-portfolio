@@ -10,22 +10,21 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/netlify": "^2.6.0",
-    "@astrojs/sitemap": "^2.0.2",
-    "@astrojs/solid-js": "^2.2.1",
+    "@astrojs/sitemap": "^3.0.2",
+    "@astrojs/solid-js": "^3.0.2",
     "@astrojs/vercel": "^5.1.0",
     "@vercel/analytics": "^1.1.1",
-    "astro": "^2.10.9",
+    "astro": "^3.3.4",
     "astro-icon": "^0.8.1",
-    "astro-robots-txt": "^0.5.0",
+    "astro-robots-txt": "^1.0.0",
     "autoprefixer": "^10.4.15",
     "motion": "^10.16.2",
     "solid-js": "^1.7.11"
   },
   "devDependencies": {
-    "@unocss/astro": "^0.55.7",
-    "@unocss/preset-uno": "^0.55.7",
-    "@unocss/reset": "^0.55.7",
-    "unocss": "^0.55.7"
+    "@unocss/astro": "^0.57.1",
+    "@unocss/preset-uno": "^0.57.1",
+    "@unocss/reset": "^0.57.1",
+    "unocss": "^0.57.1"
   }
 }

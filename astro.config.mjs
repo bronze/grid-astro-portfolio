@@ -1,6 +1,6 @@
 import {defineConfig} from "astro/config";
 import sitemap from "@astrojs/sitemap";
-import vercel from '@astrojs/vercel/static';
+import vercel from '@astrojs/vercel/serverless';
 import robotsTxt from "astro-robots-txt";
 import UnoCSS from "@unocss/astro";
 import solidJs from "@astrojs/solid-js";
@@ -19,7 +19,7 @@ export default defineConfig({
     solidJs(),
     UnoCSS({injectReset: true}),
   ],
-  output: "static",
+  output: 'server',
   adapter: vercel({
     webAnalytics: {
       enabled: true,
